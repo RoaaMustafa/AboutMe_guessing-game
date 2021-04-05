@@ -1,0 +1,30 @@
+body{
+    color: rgb(189, 33, 189);   
+    background-color: rgb(223, 161, 192);
+    font-style: italic;
+    text-align: center;
+}
+
+header{
+font-style: italic;
+text-align: center;
+border-color: white;
+border-radius: 50px;
+border: 20px 200px 40px 200px;
+margin:20px 200px 40px 200px ;
+border-style: double;
+display: inline-block;
+}
+h3{
+    color: white;
+}
+p{
+    padding: 4px ;
+    paint-order: initial;
+    border-color: white;
+    border-radius: 50px;
+    border: 20px 200px 40px 200px;
+    margin:20px 200px 40px 200px ;
+border-style: double;
+display: inline-block;
+}
