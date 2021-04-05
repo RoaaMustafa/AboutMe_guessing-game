@@ -1,7 +1,11 @@
 'use strict';
+let username = prompt('What\'s your name?');
+alert('Welcome ' + username);
+document.write('Thank you for visiting ' + username);
+
 let answer1 = confirm('Do You think I\'m good enough to be a developer?');
 if (answer1){
-    alert('Thank you ');
+    alert('Thank you');
     console.log(answer1);
 }else {
     alert('No you are worng about that');
@@ -9,16 +13,14 @@ if (answer1){
 }
 
 let answer2 = prompt('Do you think that I like drowing?');
-switch (answer2) {
+switch (answer2.toLowerCase()){
     case 'yes':
     case 'y': 
-    answer2 = answer2.toLowerCase   
         alert('You alright, It\'s my hobby');
         console.log(answer2);
         break;
     case 'no':
     case 'n': 
-    answer2 = answer2.toLowerCase   
     alert('mmm, You are wrong , It\'s my hobby'); 
     console.log(answer2);
     break;
@@ -29,16 +31,14 @@ switch (answer2) {
 }
 
 let answer3 = prompt('What think my favorite color?, It\'s the pink?');
-switch (answer3) {
+switch (answer3.toLowerCase()){
     case 'yes':
     case 'y': 
-    answer3 = answer3.toLowerCase
     alert ('NO, my favorit one is white ');
     console.log(false);
     break;
     case 'no'  :
-    case 'n'    :
-    answer3 = answer3.toLowerCase   
+    case 'n'    :   
     alert( 'Yes not pink ');
     console.log(true);
     break;
@@ -57,21 +57,19 @@ else{
     console.log(myage +' you don\'t guess my age I\'m 23');
 }
 let like = prompt('Do like my website ?');
-switch (like) {
+switch (like.toLowerCase()) {
     case 'yes':
     case 'y': 
-    like = like.toLowerCase
         alert ('Thank you');
         console.log(like);
         break;
         case 'no'  :
-        case 'n'    :
-        like = like.toLowerCase   
-        alert( 'Ok, I\'ll try to make it better ');
+        case 'n'    :  
+        alert( 'Ok, I\'ll try to make it better');
         console.log(false);
         break;
         default:
-            alert('please, answer me it\'s a game' );
+            alert('please, answer me it\'s a game');
             console.log('you did\'n answer');
       break;
     }
