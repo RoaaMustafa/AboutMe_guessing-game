@@ -42,7 +42,7 @@ switch (answer2.toLowerCase()){
         break;
 }
 
-let answer3 = prompt('Question.3: What think my favorite color?, It\'s the pink?','yes/no');
+let answer3 = prompt('Question.3: What do  think my favorite color?, It\'s the pink?','yes/no');
 switch (answer3.toLowerCase()){
     case 'yes':
     case 'y': 
@@ -122,7 +122,7 @@ let guessmovie = ['pabilon','me before you','inception','fault in our stars','sh
 //console.log(guessmovie.every);
  let score =0;
  for (let i= 1 ; i<=6; i++){
-     let possipleanswer=prompt('Guess my Best movie ,you have only 6 attepmts');
+     let possipleanswer=prompt(' Question.7: Guess my Best movie ,you have only 6 attepmts');
      possipleanswer = possipleanswer.toLowerCase();
      if (possipleanswer === guessmovie[0] || possipleanswer === guessmovie[1] || possipleanswer === guessmovie[2] ||
         possipleanswer === guessmovie[3] || possipleanswer === guessmovie[4] || possipleanswer === guessmovie[5] 
