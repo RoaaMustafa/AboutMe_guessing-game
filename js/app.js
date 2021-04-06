@@ -141,4 +141,4 @@ let guessmovie = ['pabilon','me before you','inception','fault in our stars','sh
 alert(' Thank you  ' + username + '  your score is  '+ score + '  these are my best movies:  '+ ' 1.'+ guessmovie[0]+ ' 2.'+ guessmovie[1]+
 ' 3.'+ guessmovie[2]+' 4.'+ guessmovie[3]+' 5.'+ guessmovie[4]+ ' 6.'+ guessmovie[5]+' 7.'+ guessmovie[6]);  
  
-alert('Your total score is ' + totalscore +'/7'+ 'Thank You' );
+alert('Your total score is ' + totalscore +'/7 '+ ' Thank You' );
