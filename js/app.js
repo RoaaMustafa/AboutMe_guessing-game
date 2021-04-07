@@ -66,24 +66,26 @@ function q3(){
   }
 }
 q3();
-let myage = prompt('Question.4: Guess my age! , it\'s 23 or not');
-switch (myage.toLowerCase()) {
-case 'yes':
-case 'y':
-  alert('Yes I\'m 23');
-  totalscore++;
-  //console.log(myage + 'you guessed my age  I\'m 23')
-  break;
-case 'no':
-case 'n':
-  alert('No I\'m 23 ');
-  break;
+function q4 (){
+  let myage = prompt('Question.4: Guess my age! , it\'s 23 or not');
+  switch (myage.toLowerCase()) {
+  case 'yes':
+  case 'y':
+    alert('Yes I\'m 23');
+    totalscore++;
+    //console.log(myage + 'you guessed my age  I\'m 23')
+    break;
+  case 'no':
+  case 'n':
+    alert('No I\'m 23 ');
+    break;
   //console.log(myage +' you don\'t guess my age I\'m 23');
-default:
-  alert('please yes/no');
-  break;
+  default:
+    alert('please yes/no');
+    break;
+  }
 }
-
+q4();
 let like = prompt('Question.5: Do like my website ?');
 switch (like.toLowerCase()) {
 case 'yes':
