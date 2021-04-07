@@ -86,25 +86,27 @@ function q4 (){
   }
 }
 q4();
-let like = prompt('Question.5: Do like my website ?');
-switch (like.toLowerCase()) {
-case 'yes':
-case 'y':
-  alert ('Thank you');
-  totalscore++;
-  //console.log(like);
-  break;
-case 'no' :
-case 'n' :
-  alert( 'Ok, I\'ll try to make it better');
-  //console.log(false);
-  break;
-default:
-  alert('please, answer me it\'s a game');
-  //console.log('you did\'n answer');
-  break;
+function q5(){
+  let like = prompt('Question.5: Do like my website ?');
+  switch (like.toLowerCase()) {
+  case 'yes':
+  case 'y':
+    alert ('Thank you');
+    totalscore++;
+    //console.log(like);
+    break;
+  case 'no' :
+  case 'n' :
+    alert( 'Ok, I\'ll try to make it better');
+    //console.log(false);
+    break;
+  default:
+    alert('please, answer me it\'s a game');
+    //console.log('you did\'n answer');
+    break;
+  }
 }
-
+q5();
 let guessnum = prompt('Question.6: Guess a number between 1-10 I\'ll tell you what\'s my favorite number , you have only 4 attempts');
 for ( let i=1 ; i<4 ;i++){
   guessnum = parseInt(guessnum);
