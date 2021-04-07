@@ -107,28 +107,30 @@ function q5(){
   }
 }
 q5();
-let guessnum = prompt('Question.6: Guess a number between 1-10 I\'ll tell you what\'s my favorite number , you have only 4 attempts');
-for ( let i=1 ; i<4 ;i++){
-  guessnum = parseInt(guessnum);
-  if (guessnum===3) {
-    alert('you guessed');
-    totalscore++;
-    break;
-  }else if (guessnum>3){
+function q6(){
+  let guessnum = prompt('Question.6: Guess a number between 1-10 I\'ll tell you what\'s my favorite number , you have only 4 attempts');
+  for ( let i=1 ; i<4 ;i++){
+    guessnum = parseInt(guessnum);
+    if (guessnum===3) {
+      alert('you guessed');
+      totalscore++;
+      break;
+    }else if (guessnum>3){
     //alert('Too high '+'Try again');
-    guessnum = prompt('Too high Try again');
-  } else if (guessnum<3){
+      guessnum = prompt('Too high Try again');
+    } else if (guessnum<3){
     //alert('Too low ' + 'Try again');
-    guessnum = prompt('Too low Try again');
-  }else{
-    guessnum = prompt('answer please');
-  }
-  if(i===4){
-    alert('Thank you to try The number is 3');
-    break;
+      guessnum = prompt('Too low Try again');
+    }else{
+      guessnum = prompt('answer please');
+    }
+    if(i===4){
+      alert('Thank you to try The number is 3');
+      break;
+    }
   }
 }
-
+q6();
 let guessmovie = ['pabilon','me before you','inception','fault in our stars','shawshank redemption','ocean 8','up'];
 //console.log(guessmovie.every);
 let score =0;
