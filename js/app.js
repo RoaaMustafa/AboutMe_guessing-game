@@ -131,33 +131,36 @@ function q6(){
   }
 }
 q6();
-let guessmovie = ['pabilon','me before you','inception','fault in our stars','shawshank redemption','ocean 8','up'];
-//console.log(guessmovie.every);
-let score =0;
-for (let i= 1 ; i<=6; i++){
-  let possipleanswer=prompt(' Question.7: Guess my Best movie ,you have only 6 attepmts');
-  possipleanswer = possipleanswer.toLowerCase();
-  for(let j=0;j<guessmovie.length;j++){
-    if(possipleanswer===guessmovie[j]){
+function q7(){
+  let guessmovie = ['pabilon','me before you','inception','fault in our stars','shawshank redemption','ocean 8','up'];
+  //console.log(guessmovie.every);
+  let score =0;
+  for (let i= 1 ; i<=6; i++){
+    let possipleanswer=prompt(' Question.7: Guess my Best movie ,you have only 6 attepmts');
+    possipleanswer = possipleanswer.toLowerCase();
+    for(let j=0;j<guessmovie.length;j++){
+      if(possipleanswer===guessmovie[j]){
 
-      alert('you guessed');
-      i=7;
-      break;
+        alert('you guessed');
+        i=7;
+        break;
+
+      }
+
 
     }
 
-
+    if(i===6){
+      alert('you take all the attempts');
+    }
+  }
+  if (score>1) {
+    totalscore++;
   }
 
-  if(i===6){
-    alert('you take all the attempts');
-  }
-}
-if (score>1) {
-  totalscore++;
-}
-
-alert(' Thank you  ' + username + '  your score is  '+ score + '  these are my best movies:  '+ ' 1.'+ guessmovie[0]+ ' 2.'+ guessmovie[1]+
+  alert(' Thank you  ' + username + '  your score is  '+ score + '  these are my best movies:  '+ ' 1.'+ guessmovie[0]+ ' 2.'+ guessmovie[1]+
 ' 3.'+ guessmovie[2]+' 4.'+ guessmovie[3]+' 5.'+ guessmovie[4]+ ' 6.'+ guessmovie[5]+' 7.'+ guessmovie[6]);
 
-alert('Your total score is ' + totalscore +'/7 '+ ' Thank You' );
+  alert('Your total score is ' + totalscore +'/7 '+ ' Thank You' );
+}
+q7();
