@@ -19,6 +19,6 @@
 
 ### this site is talking about me and talking about my best cities to visit
 ## On Lab-04
-### Yazan was the navigator on his repo on: [yazan as a navigator](https://github.com/YazanAhmad18/About-Me/pull/7)
-### I was the navigator on my repo on: [me as a navigator](https://github.com/RoaaMustafa/AboutMe_guessing-game/pull/7)
+### Yazan was the navigator and me was the driver on his repo on: [yazan as a navigator](https://github.com/YazanAhmad18/About-Me/pull/7)
+### I was the navigator on and yazan was the driver my repo on: [me as a navigator](https://github.com/RoaaMustafa/AboutMe_guessing-game/pull/7)
 ### we  worked  to put each question in a function so we maked 7 pulled requests
