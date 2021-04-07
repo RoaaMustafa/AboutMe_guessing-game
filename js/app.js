@@ -45,25 +45,27 @@ function q2 (){
   }
 }
 q2();
-
-let answer3 = prompt('Question.3: What do  think my favorite color?, It\'s the pink?','yes/no');
-switch (answer3.toLowerCase()){
-case 'yes':
-case 'y':
-  alert ('NO, my favorit one is white ');
-  // console.log(false);
-  break;
-case 'no' :
-case 'n' :
-  alert( 'Yes not pink ');
-  totalscore++;
-  //console.log(true);
-  break;
-default:
-  alert('please, answer me it\'s a game' );
-  //console.log('you did\'n answer');
-  break;
+function q3(){
+  let answer3 = prompt('Question.3: What do  think my favorite color?, It\'s the pink?','yes/no');
+  switch (answer3.toLowerCase()){
+  case 'yes':
+  case 'y':
+    alert ('NO, my favorit one is white ');
+    // console.log(false);
+    break;
+  case 'no' :
+  case 'n' :
+    alert( 'Yes not pink ');
+    totalscore++;
+    //console.log(true);
+    break;
+  default:
+    alert('please, answer me it\'s a game' );
+    //console.log('you did\'n answer');
+    break;
+  }
 }
+q3();
 let myage = prompt('Question.4: Guess my age! , it\'s 23 or not');
 switch (myage.toLowerCase()) {
 case 'yes':
