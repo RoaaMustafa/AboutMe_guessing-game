@@ -1,6 +1,9 @@
 body{
+    width: 600px;
+    height: 1150px;
     color: rgb(189, 33, 189);   
-    background-color: rgb(223, 161, 192);
+    background-image: url(/img/back.jpg);
+    /* background-color: rgb(223, 161, 192); */
     font-style: italic;
     text-align: center;
     z-index: 10;
@@ -11,20 +14,32 @@ body{
 }
 
 header{
+width :500px;
+height: 70px;
 font-style: italic;
 text-align: center;
 border-color: white;
 background-color: rgb(255, 226, 255);
 border-radius: 50px;
-border: 10px 200px 20px 200px;
-margin:20px 200px 40px 200px ;
+border: 0px 100px 0px 100px;
 border-style: double;
 display: inline-block;
 }
-
+header h2{
+    padding-bottom: 100px;
+}
 
 img{
-    width: min-content;
+   width :900px;
+   height: 250px; 
+   box-align: center;
+   margin-left: 30px;
+    opacity: 1;
+   border-style: groove;
+    border-radius: 30px;
+    border-color: white;
+    border: 10px 100px 10px 100px;
+
 }
 h3{
     color: white;
@@ -37,13 +52,13 @@ nav ul li {
     border-radius: 30px;
     background-color: rgb(255, 191, 253);
     border: 10px 100px 10px 100px;
-    margin:10px 200px 10px 300px ;
+    margin:10px 100px 10px 100px ;
  border-style: double;
 display: ruby-base;
 }
 .topten nav ol li{
     padding: 4px ;
-    margin:10px 200px 5px 300px ;
+    margin:10px 100px 5px 100px ;
     text-align: center;
 display: list-item;
 border: 10px 100px 10px 100px;
@@ -55,6 +70,6 @@ border-style: ridge;
 border-radius: 15px;
 }
 footer{
-    margin:20px 200px 40px 200px ;
+    margin:20px 100px 40px 100px ;
 
 }
