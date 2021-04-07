@@ -23,7 +23,7 @@ display: inline-block;
 
 
 img{
-    width: inherit;
+    width: min-content;
 }
 h3{
     color: white;
