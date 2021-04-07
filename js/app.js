@@ -24,25 +24,27 @@ function q1(){
   }
 }
 q1();
-
-let answer2 = prompt('Question.2:Do you think that I like drowing?','yes/no');
-switch (answer2.toLowerCase()){
-case 'yes':
-case 'y':
-  alert('You alright, It\'s my hobby');
-  totalscore++;
-  // console.log(answer2);
-  break;
-case 'no':
-case 'n':
-  alert('mmm, You are wrong , It\'s my hobby');
-  //console.log(answer2);
-  break;
-default:
-  alert('please, put yes/no answer !');
-  // console.log('you did\'n answer');
-  break;
+function q2 (){
+  let answer2 = prompt('Question.2:Do you think that I like drowing?','yes/no');
+  switch (answer2.toLowerCase()){
+  case 'yes':
+  case 'y':
+    alert('You alright, It\'s my hobby');
+    totalscore++;
+    // console.log(answer2);
+    break;
+  case 'no':
+  case 'n':
+    alert('mmm, You are wrong , It\'s my hobby');
+    //console.log(answer2);
+    break;
+  default:
+    alert('please, put yes/no answer !');
+    // console.log('you did\'n answer');
+    break;
+  }
 }
+q2();
 
 let answer3 = prompt('Question.3: What do  think my favorite color?, It\'s the pink?','yes/no');
 switch (answer3.toLowerCase()){
