@@ -1,14 +1,16 @@
 body{
-    width: 600px;
-    height: 1150px;
+    width: 1213px;
+    height: 810px;
     color: rgb(189, 33, 189);   
-    background-image: url(/img/back.jpg);
+    background-image: url(/img/dz.jpeg);
     /* background-color: rgb(223, 161, 192); */
     font-style: italic;
     text-align: center;
     z-index: 10;
     position: relative;
     display: grid;
+    position: relative;
+   
 
     
 }
@@ -25,8 +27,16 @@ border: 0px 100px 0px 100px;
 border-style: double;
 display: inline-block;
 }
-header h2{
+hgroup{
     padding-bottom: 100px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+   color: rgb(253, 253, 253);
+   font-size: large;
+position: inherit;
+padding-inline-start: initial;
+
 }
 
 img{
