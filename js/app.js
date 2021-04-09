@@ -11,12 +11,12 @@ function q1(){
   case 'y':
     alert('Thank you');
     totalscore++;
-    // console.log(answer1);
+  
     break;
   case 'no':
   case 'n':
     alert('No you are worng about that');
-    // console.log(answer1);
+    
     break;
   default:
     alert('please, put yes/no answer !');
@@ -31,16 +31,16 @@ function q2 (){
   case 'y':
     alert('You alright, It\'s my hobby');
     totalscore++;
-    // console.log(answer2);
+   
     break;
   case 'no':
   case 'n':
     alert('mmm, You are wrong , It\'s my hobby');
-    //console.log(answer2);
+   
     break;
   default:
     alert('please, put yes/no answer !');
-    // console.log('you did\'n answer');
+   
     break;
   }
 }
@@ -51,17 +51,17 @@ function q3(){
   case 'yes':
   case 'y':
     alert ('NO, my favorit one is white ');
-    // console.log(false);
+    
     break;
   case 'no' :
   case 'n' :
     alert( 'Yes not pink ');
     totalscore++;
-    //console.log(true);
+   
     break;
   default:
     alert('please, answer me it\'s a game' );
-    //console.log('you did\'n answer');
+    
     break;
   }
 }
@@ -73,13 +73,13 @@ function q4 (){
   case 'y':
     alert('Yes I\'m 23');
     totalscore++;
-    //console.log(myage + 'you guessed my age  I\'m 23')
+    
     break;
   case 'no':
   case 'n':
     alert('No I\'m 23 ');
     break;
-  //console.log(myage +' you don\'t guess my age I\'m 23');
+ 
   default:
     alert('please yes/no');
     break;
@@ -93,16 +93,16 @@ function q5(){
   case 'y':
     alert ('Thank you');
     totalscore++;
-    //console.log(like);
+   
     break;
   case 'no' :
   case 'n' :
     alert( 'Ok, I\'ll try to make it better');
-    //console.log(false);
+ 
     break;
   default:
     alert('please, answer me it\'s a game');
-    //console.log('you did\'n answer');
+   
     break;
   }
 }
@@ -116,10 +116,10 @@ function q6(){
       totalscore++;
       break;
     }else if (guessnum>3){
-    //alert('Too high '+'Try again');
+    
       guessnum = prompt('Too high Try again');
     } else if (guessnum<3){
-    //alert('Too low ' + 'Try again');
+    
       guessnum = prompt('Too low Try again');
     }else{
       guessnum = prompt('answer please');
@@ -133,7 +133,7 @@ function q6(){
 q6();
 function q7(){
   let guessmovie = ['pabilon','me before you','inception','fault in our stars','shawshank redemption','ocean 8','up'];
-  //console.log(guessmovie.every);
+ 
   let score =0;
   for (let i= 1 ; i<=6; i++){
     let possipleanswer=prompt(' Question.7: Guess my Best movie ,you have only 6 attepmts');
