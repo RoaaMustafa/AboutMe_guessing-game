@@ -1,66 +1,51 @@
 body{
-    width: 1213px;
+     width: 1200px;
     height: 810px;
-    color: rgb(189, 33, 189);   
+    color: rgb(255, 255, 255);   
     background-image: url(/img/dz.jpeg);
-    /* background-color: rgb(223, 161, 192); */
+    background-size: cover;
     font-style: italic;
     text-align: center;
     z-index: 10;
     position: relative;
-    display: grid;
-    position: relative;
-   
+    display: grid; 
+    margin-right: 50px;
+    margin-left: 0px;
 
     
 }
 
-header{
+header h1,h2{
 width :500px;
 height: 70px;
 font-style: italic;
 text-align: center;
-border-color: white;
-background-color: rgb(255, 226, 255);
-border-radius: 50px;
-border: 0px 100px 0px 100px;
-border-style: double;
-display: inline-block;
+text-shadow: 1px 1px 2px rgba(240, 162, 205, 0.5), 0 0 1em rgba(2, 183, 255, 0.842), 0 0 0.2em rgb(0, 217, 255);
+font-size: x-large;
+display: inline-block; 
+color: white;
 }
-hgroup{
-    padding-bottom: 100px;
-    font-style: italic;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    display: block;
-   color: rgb(253, 253, 253);
-   font-size: large;
-position: inherit;
-padding-inline-start: initial;
-
-}
-
-img{
-   width :900px;
-   height: 250px; 
-   box-align: center;
-   margin-left: 30px;
-    opacity: 1;
-   border-style: groove;
+header h1{
+    font-size: xx-large;
+    border: 0px 0px 0px 0px;
+    border-color: rgb(255, 103, 235);
+    border-style: groove ;
     border-radius: 30px;
-    border-color: white;
-    border: 10px 100px 10px 100px;
-
+background-color: rgb(238, 117, 187);
 }
+
 h3{
     color: white;
     text-align: center;
+   font-size: large;
     margin:10px 200px 10px 300px ;
+    text-shadow: 1px 1px 2px rgba(240, 162, 205, 0.5), 0 0 1em rgba(2, 183, 255, 0.842), 0 0 0.2em rgb(0, 217, 255);
 }
-nav ul li {
+.aboutme nav ul li {
     padding: 4px ;
     border-color: white;
     border-radius: 30px;
-    background-color: rgb(255, 191, 253);
+    background-color: rgba(245, 176, 242, 0.7);
     border: 10px 100px 10px 100px;
     margin:10px 100px 10px 100px ;
  border-style: double;
@@ -80,6 +65,16 @@ border-style: ridge;
 border-radius: 15px;
 }
 footer{
-    margin:20px 100px 40px 100px ;
+    margin:10px 100px 5px 100px ; 
+    font-size: large;
+    text-shadow: 1px 1px 2px rgba(248, 7, 139, 0.5), 0 0 1em rgb(226, 123, 154)0 0 0.2em rgb(226, 123, 154);
+    background-color :rgba(248, 7, 139, 0.5) ;
+    color: white;
+    border-color: rgb(255, 103, 235);
+    border: 10px 100px 10px 100px;
+    border-style: groove ;
+    border-radius: 30px;
 
+   
+   
 }
