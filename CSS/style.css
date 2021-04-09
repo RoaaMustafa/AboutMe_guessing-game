@@ -2,7 +2,7 @@ body{
      width: 1200px;
     height: 810px;
     color: rgb(255, 255, 255);   
-    background-image: url(/img/dz.jpeg);
+    background-image: url(../img/dz.jpeg);
     background-size: cover;
     font-style: italic;
     text-align: center;
