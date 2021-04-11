@@ -4,7 +4,7 @@ let username = prompt('What\'s your name?');
 alert('Welcome ' + username);
 document.write('Thank you for visiting ' + username);
 
-function q1(){
+function questionOne(){
   let answer1 = prompt('Question.1: Do You think I\'m good enough to be a developer?','yes/no');
   switch (answer1.toLowerCase()) {
   case 'yes':
@@ -23,8 +23,8 @@ function q1(){
     break;
   }
 }
-q1();
-function q2 (){
+questionOne();
+function questionTwo(){
   let answer2 = prompt('Question.2:Do you think that I like drowing?','yes/no');
   switch (answer2.toLowerCase()){
   case 'yes':
@@ -44,8 +44,8 @@ function q2 (){
     break;
   }
 }
-q2();
-function q3(){
+questionTwo();
+function questionThree(){
   let answer3 = prompt('Question.3: What do  think my favorite color?, It\'s the pink?','yes/no');
   switch (answer3.toLowerCase()){
   case 'yes':
@@ -65,7 +65,7 @@ function q3(){
     break;
   }
 }
-q3();
+questionThree();
 function q4 (){
   let myage = prompt('Question.4: Guess my age! , it\'s 23 or not');
   switch (myage.toLowerCase()) {
@@ -85,8 +85,8 @@ function q4 (){
     break;
   }
 }
-q4();
-function q5(){
+questionFour();
+function questionFive(){
   let like = prompt('Question.5: Do like my website ?');
   switch (like.toLowerCase()) {
   case 'yes':
@@ -106,8 +106,8 @@ function q5(){
     break;
   }
 }
-q5();
-function q6(){
+questionFive();
+function questionSix(){
   let guessnum = prompt('Question.6: Guess a number between 1-10 I\'ll tell you what\'s my favorite number , you have only 4 attempts');
   for ( let i=1 ; i<4 ;i++){
     guessnum = parseInt(guessnum);
@@ -130,8 +130,8 @@ function q6(){
     }
   }
 }
-q6();
-function q7(){
+questionSix();
+function questionSeven(){
   let guessmovie = ['pabilon','me before you','inception','fault in our stars','shawshank redemption','ocean 8','up'];
  
   let score =0;
@@ -163,4 +163,4 @@ function q7(){
 
   alert('Your total score is ' + totalscore +'/7 '+ ' Thank You' );
 }
-q7();
+questionSeven();
